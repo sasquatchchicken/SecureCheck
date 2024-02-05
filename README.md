@@ -70,3 +70,11 @@
 ## Disclaimer
 
 **Please note that this repo is for educational purposes only and should not be used for illegal activities.**
+**For this to work in an Enterprise engagement follow these steps:**
+**1. Obtain a Code Signing Certificate**
+
+**2. Sign the Python Script:**  pip install signify
+
+**3. Convert to Executable:** use pyinstaller --0nefile
+
+**4. Distribute the Signed Executable:**
